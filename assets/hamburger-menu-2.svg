@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="125"
+   height="78.663002"
+   viewBox="0 0 33.072915 20.812919"
+   version="1.1"
+   id="svg843"
+   sodipodi:docname="hamburger-menu-2.svg"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
+  <defs
+     id="defs837" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="62.698392"
+     inkscape:cy="76.651777"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1267"
+     inkscape:window-height="728"
+     inkscape:window-x="-4"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0">
+    <sodipodi:guide
+       position="-2.80633,34.574862"
+       orientation="0,-1"
+       id="guide1406" />
+    <sodipodi:guide
+       position="4.3431298,31.701714"
+       orientation="0,-1"
+       id="guide1439" />
+    <sodipodi:guide
+       position="7.4835468,26.757228"
+       orientation="0,-1"
+       id="guide1441" />
+    <sodipodi:guide
+       position="1.2027129,23.683629"
+       orientation="0,-1"
+       id="guide1443" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata840">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:2.50797;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.3996522,2.4489984 H 30.688312"
+       id="path1408" />
+    <path
+       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:2.50797;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.4001537,10.373758 H 30.689167"
+       id="path1408-5" />
+    <path
+       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:2.50797;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 2.404704,18.400514 H 30.690109"
+       id="path1408-2" />
+  </g>
+</svg>

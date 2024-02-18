@@ -13,8 +13,97 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-body text-white font-poppins pb-12">
 
+    <header class="py-6">
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"> 
+            <div class="text-3xl font-bold leading-snug flex justify-center">
+                <img src="./assets/ren-logo.svg" alt="my logo" class="h-10 w-auto mr-5">
+                ren
+            </div>
+            <div class="hidden md:flex space-x-12 items-center">
+                <a href="#home" class="text-selected-text">Home</a>
+                <a href="#about">About</a>
+                <a href="#project">Projects</a>
+                <a href="#contact" class="px-6 py-2 bg-theme font-bold"><button>Contact Me</button></a>  
+            </div>
+            <div class="md:hidden">
+                <img src="./assets/hamburger-menu-2.svg" alt="hamburger menu" class="h-10 w-auto">
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <div class="container flex justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <div class="flex flex-wrap md:flex-nowrap md:mt-20 lg:mt-0">
+
+            <nav class="inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block">
+                <div class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36">
+                    <a href="#" class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Home</span>
+                    </a>
+                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">About</span>
+                    </a>
+                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Projects</span>
+                    </a>
+                    <a href="#" class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body">
+                        <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0">Contact Me</span>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="flex flex-wrap max-w-3xl lg:ml-20 md:ml-0 justify-center mx-auto md:justify-start mt-0 md:my-36">
+                <div class="flex flex-nowrap flex-col justify-center">
+                    <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left mt-10">Renier Antonio</h1>
+                    <h2 class="font-bold text-2xl md:text-2xl md:text-left lg:text-4xl whitespace-nowrap text-center mr-10">Software Developer</h2>
+                </div>
+                <div class="w-full flex justify-center md:justify-start">
+                    <button class="px-8 py-4 bg-theme text-white font-bold mt-8" onclick="window.open('./assets/Renier Antonio.pdf')">
+                        Download CV
+                    </button>
+                </div>
+            </div>
+            
+            <img src="./assets/me-in-suit.png" alt="my profile image" class="h-96 sm:mt-12 mt-12 self-center mx-auto rounded-full">
+        </div>
+    </div>
+
+    <!-- About -->
+    <div class="container mt-56 flex justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="about" class="secondary-title">About Me</h2>
+            <div class="flex sm:justify-center lg:flex-nowrap mt-12 flex-wrap">
+                <img src="./assets/about-me.jpg" alt="my photo" class="h-96 rounded-xl mx-auto">
+                <p class="section-paragraph ml-10">
+                    Hello my name is Renier F. Antonio from Talon-Talon, Zamboanga City. I am a graduate of Western Mindanao State University with a degree in Bachelor of Science in Information Technology.
+                    <br><br>
+                    As a hobby aside from programming and learning new concepts, I keep my self entertained by watching films, and educational videos. I also interest myself in learning new things for self improvement with reading and practice (such as habit building, exercise and eating right), reading fictional books at times, and finally I fancy a conversation about science, philosophy, and history.
+                    <br><br>
+                    Get to know me more by my previous projects and the technologies that I have used by scrolling below.
+                </p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Projects -->
+    <div class="container mt-56 flex justify-center items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+        <section class="w-full">
+            <h2 id="projects" class="secondary-title">Projects</h2>
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-12 auto-rows-max">
+                <a href="https://github.com/M4rm3ladov/Hygiene-Mobile" target="_blank">
+                    <img src="./assets/hygiene-mobile-mockup.png" alt="project 1" class="rounded-xl">
+                </a>
+                <a href="https://github.com/M4rm3ladov/AJE" target="_blank">
+                    <img src="./assets/pos-inventory-mockup.png" alt="project 2" class="rounded-xl">
+                </a>
+                <a href="https://github.com/M4rm3ladov/TutorNearMe" target="_blank">
+                    <img src="./assets/ttnm-mockup.png" alt="project 3" class="rounded-xl">
+                </a>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>

@@ -1,10 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['./*.{html,js}'],
+  darkMode: false,
   theme: {
     extend: {
       colors: {
-        'body': '#171711f',
+        'body': '#17171F',
         'selected-text': '#A3A3FF',
         'theme': '#3F3FFF',
         'nav': '#404053',
@@ -14,7 +15,7 @@ module.exports = {
         'input': '#2A2A35',
       },
       fontFamily: {
-        'poppins': ["'Poppins", 'sans-serif']
+        'poppins': ["'Poppins'", 'sans-serif']
       }
     },
   },

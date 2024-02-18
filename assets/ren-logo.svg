@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="524.18268"
+   height="565.48157"
+   viewBox="0 0 138.69 149.617"
+   version="1.1"
+   id="svg1567"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="ren-logo.svg">
+  <defs
+     id="defs1561">
+    <inkscape:path-effect
+       effect="fillet_chamfer"
+       id="path-effect1627"
+       is_visible="true"
+       lpeversion="1"
+       satellites_param="F,0,0,1,0,64.165703,0,1 @ F,0,0,1,0,41.487157,0,1 @ F,0,1,1,0,64.165703,0,1"
+       unit="px"
+       method="auto"
+       mode="F"
+       radius="0"
+       chamfer_steps="1"
+       flexible="false"
+       use_knot_distance="true"
+       apply_no_radius="true"
+       apply_with_radius="true"
+       only_selected="false"
+       hide_knots="false" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-445.14807"
+     inkscape:cy="-94.956607"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     units="px"
+     width="138.69mm">
+    <sodipodi:guide
+       position="12.828937,90.667925"
+       orientation="0,-1"
+       id="guide1990" />
+    <sodipodi:guide
+       position="29.295309,210.05875"
+       orientation="1,0"
+       id="guide1992" />
+    <sodipodi:guide
+       position="199.91761,227.50992"
+       orientation="0,-1"
+       id="guide1994" />
+    <sodipodi:guide
+       position="173.19065,149.46722"
+       orientation="1,0"
+       id="guide1996" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata1564">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <ellipse
+       style="fill:#484646;fill-opacity:1;stroke:none;stroke-width:16.9934;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1602"
+       cx="104.39481"
+       cy="33.385883"
+       rx="34.202015"
+       ry="33.403721" />
+    <path
+       style="fill:#6e6e6e;fill-opacity:1;stroke:none;stroke-width:1.4762px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -0.09359339,52.414337 0.01926249,55.715203 a 41.484134,41.484134 44.978103 0 0 41.5014969,41.46978 l 55.594607,-0.0233 A 26.593726,26.593726 112.48777 0 0 115.81509,104.17757 L 45.256605,33.620263 A 26.565624,26.565624 157.48986 0 0 -0.09359339,52.414337 Z"
+       id="path1614"
+       inkscape:path-effect="#path-effect1627"
+       inkscape:original-d="m -0.11577749,-11.751362 0.05579,161.368052 161.24745749,-0.0675 z" />
+  </g>
+</svg>
