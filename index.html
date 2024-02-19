@@ -122,20 +122,20 @@
             <p class="section-paragraph">Feel free to contact me any time, through any avenues below.</p>
             
             <div class="w-full grid gap-8 mt-24 lg:grid-cols-2 lg:gap-32">
-                <form class="space-y-12">
+                <form action="https://formspree.io/f/xzbnrojp" method="POST" class="space-y-12">
                     <div>
                         <label class="text-white block mb-6 text-xl font-bold">Full Name</label>
                         <input class="w-full border border-input-border bg-input px-4 py-4" type="text" required>
                     </div>
                     <div>
                         <label class="text-white block mb-6 text-xl font-bold">Email</label>
-                        <input class="w-full border border-input-border bg-input px-4 py-4" type="email" required>
+                        <input class="w-full border border-input-border bg-input px-4 py-4" type="email" name="email" required>
                     </div>
                     <div>
                         <label class="text-white block mb-6 text-xl font-bold">Message</label>
-                        <textarea class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none" type="text" required></textarea>
+                        <textarea class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none" type="text" name="message" required></textarea>
                     </div>
-                    <button class="px-4 py-2 bg-theme text-white font-bold">Send Message</button>
+                    <button class="px-4 py-2 bg-theme text-white font-bold" type="submit">Send Message</button>
                 </form>
 
                 <div class="mt-12">
