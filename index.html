@@ -16,20 +16,29 @@
 <body class="bg-body text-white font-poppins pb-12">
 
     <header class="py-6">
-        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"> 
+        <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <div class="text-3xl font-bold leading-snug flex justify-center">
                 <img src="./assets/ren-logo.svg" alt="my logo" class="h-10 w-auto mr-5">
                 ren
             </div>
+
             <div class="hidden md:flex space-x-12 items-center">
-                <a href="#" class="text-selected-text">Home</a>
-                <a href="#about">About</a>
-                <a href="#project">Projects</a>
-                <a href="#contact" class="px-6 py-2 bg-theme font-bold"><button>Contact Me</button></a>  
+                <a href="#" class="hover:text-selected-text text-selected-text">Home</a>
+                <a href="#about" class="hover:text-selected-text ">About</a>
+                <a href="#project" class="hover:text-selected-text">Projects</a>
+                <a href="#contact" class="px-6 py-2 bg-theme font-bold "><button>Contact Me</button></a>  
             </div>
-            <div class="md:hidden">
-                <img src="./assets/hamburger-menu-2.svg" alt="hamburger menu" class="h-10 w-auto">
+            
+            <div class="md:hidden hamburger-icon">
+                <img src="./assets/hamburger-menu-2.svg" alt="hamburger menu" class="h-10 w-auto" onclick="toggleMenu()">
             </div>
+        </div>
+
+        <div class="menu-links md:hidden hidden container border-black mx-auto px-8">
+            <a href="#" class="hover:text-selected-text text-selected-text block mt-8">Home</a>
+            <a href="#about" class="hover:text-selected-text block mt-8">About</a>
+            <a href="#project" class="hover:text-selected-text block mt-8">Projects</a>
+            <a href="#contact" class="px-6 py-2 bg-theme font-bold inline-block mt-8"><button>Contact Me</button></a>
         </div>
     </header>
 
@@ -57,7 +66,7 @@
             <div class="flex flex-wrap max-w-3xl lg:ml-20 md:ml-0 justify-center mx-auto md:justify-start mt-0 md:my-36">
                 <div class="flex flex-nowrap flex-col justify-center">
                     <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left mt-10">Renier Antonio</h1>
-                    <h2 class="font-bold text-2xl md:text-2xl md:text-left lg:text-4xl whitespace-nowrap text-center mr-10">Software Developer</h2>
+                    <h2 class="font-bold text-2xl lg:mr-10 lg:text-4xl md:text-2xl md:text-left sm:mr-0 whitespace-nowrap text-center">Software Developer</h2>
                 </div>
                 <div class="w-full flex justify-center md:justify-start">
                     <button class="px-8 py-4 bg-theme text-white font-bold mt-8" onclick="window.open('./assets/Renier Antonio.pdf')">
@@ -94,13 +103,13 @@
             <p class="section-paragraph">These are some of the projects I did in the past. Check out my github page for my mini-projects.</p>
             <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 auto-rows-max">
                 <a href="https://github.com/M4rm3ladov/Hygiene-Mobile" target="_blank">
-                    <img src="./assets/hygiene-mobile-mockup.png" alt="project 1" class="rounded-xl">
+                    <img src="./assets/mockups/hygiene-mobile-mockup.png" alt="project 1" class="rounded-xl">
                 </a>
                 <a href="https://github.com/M4rm3ladov/AJE" target="_blank">
-                    <img src="./assets/pos-inventory-mockup.png" alt="project 2" class="rounded-xl">
+                    <img src="./assets/mockups/pos-inventory-mockup.png" alt="project 2" class="rounded-xl">
                 </a>
                 <a href="https://github.com/M4rm3ladov/TutorNearMe" target="_blank">
-                    <img src="./assets/ttnm-mockup.png" alt="project 3" class="rounded-xl">
+                    <img src="./assets/mockups/ttnm-mockup.png" alt="project 3" class="rounded-xl">
                 </a>
             </div>
         </section>
@@ -113,21 +122,21 @@
             <p class="section-paragraph">Feel free to contact me any time, through any avenues below.</p>
             
             <div class="w-full grid gap-8 mt-24 lg:grid-cols-2 lg:gap-32">
-                <div class="space-y-12">
+                <form class="space-y-12">
                     <div>
-                        <label class="text-white block mb-6 text-xl font-bold">Name</label>
-                        <input class="w-full border border-input-border bg-input px-4 py-4" type="text">
+                        <label class="text-white block mb-6 text-xl font-bold">Full Name</label>
+                        <input class="w-full border border-input-border bg-input px-4 py-4" type="text" required>
                     </div>
                     <div>
                         <label class="text-white block mb-6 text-xl font-bold">Email</label>
-                        <input class="w-full border border-input-border bg-input px-4 py-4" type="email">
+                        <input class="w-full border border-input-border bg-input px-4 py-4" type="email" required>
                     </div>
                     <div>
                         <label class="text-white block mb-6 text-xl font-bold">Message</label>
-                        <textarea class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none" type="text"></textarea>
+                        <textarea class="w-full border border-input-border bg-input px-4 py-4 h-56 resize-none" type="text" required></textarea>
                     </div>
                     <button class="px-4 py-2 bg-theme text-white font-bold">Send Message</button>
-                </div>
+                </form>
 
                 <div class="mt-12">
                     <!-- Contacts -->

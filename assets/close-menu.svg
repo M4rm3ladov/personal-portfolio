@@ -12,7 +12,7 @@
    viewBox="0 0 19.446875 15.610417"
    version="1.1"
    id="svg843"
-   sodipodi:docname="hamburger-menu-2.svg"
+   sodipodi:docname="close-menu.svg"
    inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)">
   <defs
      id="defs837" />
@@ -24,8 +24,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="3.959798"
-     inkscape:cx="65.483367"
-     inkscape:cy="64.305558"
+     inkscape:cx="39.640235"
+     inkscape:cy="-1.8945641"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      inkscape:document-rotation="0"
@@ -71,7 +71,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -80,16 +80,12 @@
      inkscape:groupmode="layer"
      id="layer1">
     <path
-       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:1.85208335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 2.0880952,2.1374414 H 17.303136"
-       id="path1408" />
+       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:2.38125003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 4.4863332,13.269318 14.905627,2.1814158"
+       id="path1408-5-1" />
     <path
-       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:1.85208335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 2.0883649,7.7253672 H 17.303596"
-       id="path1408-5" />
-    <path
-       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:1.85208335;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 2.0908123,13.420401 H 17.304103"
-       id="path1408-2" />
+       style="fill:#f9f9f9;stroke:#ffffff;stroke-width:2.38125003;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 4.4955298,2.1727882 14.89643,13.277946"
+       id="path1408-5-1-6" />
   </g>
 </svg>
