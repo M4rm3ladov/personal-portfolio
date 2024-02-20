@@ -10,8 +10,7 @@ function updateList() {
 
 function toggleMenu() {
     const menu = document.querySelector(".menu-links");
-    const icon = document.querySelector(".hamburger-icon");
-    let iconImage = document.querySelector(".hamburger-icon img");
+    const iconImage = document.querySelector(".hamburger-icon img");
 
     if (iconImage.getAttribute('src') === "./assets/close-menu.svg") {
         iconImage.setAttribute('src', "./assets/hamburger-menu-2.svg");
@@ -21,8 +20,14 @@ function toggleMenu() {
         console.log('world');
     }
     menu.classList.toggle("hidden");
-    console.log(menu.classList);
-    // icon.classList.toggle("open");
+}
+
+function menuItemClick() {
+    const menu = document.querySelector(".menu-links");
+    const iconImage = document.querySelector(".hamburger-icon img");
+
+    menu.classList.add("hidden");
+    iconImage.setAttribute('src',"./assets/hamburger-menu-2.svg");
 }
 
 updateList();

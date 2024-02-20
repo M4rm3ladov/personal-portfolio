@@ -58,7 +58,3 @@ html, body {
 .selected-circle {
     @apply border-theme bg-theme;
 }
-
-.nav-dot:hover span {
-    opacity: 1;
-}

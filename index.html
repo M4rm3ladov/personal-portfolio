@@ -16,6 +16,8 @@
 <body class="bg-body text-white font-poppins pb-12">
 
     <header class="py-6">
+
+        <!-- desktop menu -->
         <div class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
             <div class="text-3xl font-bold leading-snug flex justify-center">
                 <img src="./assets/ren-logo.svg" alt="my logo" class="h-10 w-auto mr-5">
@@ -24,9 +26,9 @@
 
             <div class="hidden md:flex space-x-12 items-center">
                 <a href="#" class="hover:text-selected-text">Home</a>
-                <a href="#about" class="hover:text-selected-text ">About</a>
-                <a href="#project" class="hover:text-selected-text">Projects</a>
-                <a href="#contact" class="px-6 py-2 bg-theme font-bold "><button>Contact Me</button></a>  
+                <a href="#about" class="hover:text-selected-text" >About</a>
+                <a href="#project" class="hover:text-selected-text" >Projects</a>
+                <a href="#contact" class="px-6 py-2 bg-theme font-bold"><button>Contact Me</button></a>  
             </div>
             
             <div class="md:hidden hamburger-icon">
@@ -34,11 +36,12 @@
             </div>
         </div>
 
-        <div class="menu-links md:hidden hidden container border-black mx-auto px-8">
-            <a href="#" class="hover:text-selected-text block mt-8 text-center">Home</a>
-            <a href="#about" class="hover:text-selected-text block mt-8 text-center">About</a>
-            <a href="#project" class="hover:text-selected-text block mt-8 text-center">Projects</a>
-            <a href="#contact" class="px-6 py-2 bg-theme font-bold block mt-8 text-center"><button>Contact Me</button></a>
+        <!-- hamburger menu -->
+        <div class="menu-links md:hidden hidden container mx-auto px-8 z-2 relative">
+            <a href="#" class="hover:text-selected-text block mt-8 text-center " onclick="menuItemClick()">Home</a>
+            <a href="#about" class="hover:text-selected-text block mt-8 text-center" onclick="menuItemClick()">About</a>
+            <a href="#project" class="hover:text-selected-text block mt-8 text-center" onclick="menuItemClick()">Projects</a>
+            <a href="#contact" class="px-6 py-2 bg-theme font-bold block mt-8 text-center" onclick="menuItemClick()"><button>Contact Me</button></a>
         </div>
     </header>
 
